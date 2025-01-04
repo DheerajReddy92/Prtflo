@@ -2,29 +2,26 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <div id="exp" className="sect sect--padding-bottom">
+    <div id="exp" className="sect sect--white">
       <div className="container">
-        <div className="row--center">
-          <div className="col-md-12 text-center">
-            <h1 data-aos="fade-zoom" className="row__title exp">
-              Professional Experience..
-            </h1>
-            <h2 data-aos="fade-zoom" className="row__sub expsub">
-              Experience that reflects my leadership and technical proficiency.
-            </h2>
-          </div>
-        </div>
+
+        <div className="col-md-12 text-center">
+        <h1 className="header__title">
+          <span data-aos="fade-left" className="header__light2 ">Professional Experience..</span>
+        </h1>
+        <h2 data-aos="fade-zoom" className="site__subtitle">
+        Experience that reflects my leadership and technical proficiency....!
+        </h2>
+      </div>
 
         <div className="row row--center row--margin">
           {/* Full Stack Angular Position */}
-          <div data-aos="fade-up" className="col-md-6 col-sm-12 price-box price-box--purple">
+            <div data-aos="fade-up" className="col-md-6 col-sm-12 price-box price-box--purple">
             <a href="https://www.kaartech.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: 'inherit', display: 'block'}}>
               <div className="price-box__wrap">
                 <div className="price-box__img"></div>
-                <h1 className="price-box__title">Full-Stack</h1>
-                <h1 className="price-box__title2">Angular</h1>
-                <h2 className="price-box__title2">Web Application Developer</h2>
-                <h1 className="price-box__people">Full-Time</h1>
+                <h1 className="price-box__title">Full-Stack </h1>
+                <p className="price-box__people">SeniorReact Developer</p>
                 <ul className="price-box__list">
                   <h2 className="price-box__discount">
                     <span className="price-box__discount--light">/Kaar Technologies</span>
@@ -45,7 +42,7 @@ const Experience = () => {
               <div className="price-box__wrap">
                 <div className="price-box__img"></div>
                 <h1 className="price-box__title">Full-Stack and SAP</h1>
-                <p className="price-box__people">Intern</p>
+                <p className="price-box__people">React Developer</p>
                 <ul className="price-box__list">
                   <h2 className="price-box__discount">
                     <span className="price-box__discount--light">/Kaar Technologies</span>
