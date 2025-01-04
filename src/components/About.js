@@ -6,8 +6,8 @@ const About = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      once: true,
-      mirror: false
+      once: false,
+      mirror: true
     });
   }, []);
 
@@ -56,7 +56,7 @@ const About = () => {
               <div data-aos="fade-up" className="image-container">
                 <img 
                   className="site__img" 
-                  src= "/Images/dev-removebg.f960381c786a722033b4.png"
+                  src={process.env.PUBLIC_URL + '/Images/dev-removebg.png'}
                   alt="business graphic" 
                 />
               </div>
