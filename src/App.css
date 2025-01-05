@@ -851,43 +851,109 @@ body.menu-open {
 
 
 
-
-
-
 /* Certificates */
 
 
 
 
 
-.row__title {
+.carousel-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  flex-direction: column;
+}
+
+.carousel-item {
   -webkit-font-smoothing: antialiased;
   color: #1f4568;
   font-family: Pixelletters;
   font-size: 170%;
   text-align: center;
-  padding: 20px 0;
+  margin: 1%;
   position: relative;
+  transition: all 0.5s ease;
+}
+
+.cert-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .item__content {
-  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  font-family: Pixelletters;
+  font-size: 170%;
+  color: inherit;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  height: 15vw;
+  width: 67vw;
+  max-width: 660px;;
+  max-height: 200px;
   padding: 20px;
+  margin-top:15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: width 1s ease, transform 1s ease, max-height 1s ease, box-shadow 1s ease;
+}
+
+.item__header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
 }
 
 .item__img {
-  max-width: 100px;
-  margin-bottom: 15px;
+  width: 35px;
+  height: 50px;
+  margin: 0;
+  object-fit: contain;
 }
 
 .item__name {
-  display: block;
-  font-size: 1.2em;
-  margin-bottom: 10px;
+  -webkit-font-smoothing: antialiased;
+  font-family: Pixelletters;
   color: #1f4568;
+  text-align: center;
+  user-select: text !important;
+  font-weight: 700;
+  font-size: 20%;
+  margin: 0;
 }
 
 .item__description {
-  font-size: 0.9em;
-  color: #666;
+  -webkit-font-smoothing: antialiased;
+  font-family: Pixelletters;
+  text-align: center;
+  user-select: text !important;
+  color: #8198ae;
+  font-size: 20%;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 15%;
+}
+
+.item__content:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.item__content:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -23px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #ffffff;
+  height: 0;
+  width: 0;
+  filter: drop-shadow(0 7px 4px rgba(0, 0, 0, 0.2));
 }
