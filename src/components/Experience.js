@@ -20,7 +20,7 @@ const Experience = () => {
 
         <div className="row row--center row--margin">
           {/* Full Stack Angular Position */}
-            <div data-aos="fade-up" className="col-md-6 col-sm-12 price-box price-box--purple">
+            <div data-aos="fade-right" className="col-md-6 col-sm-12 price-box price-box--purple">
             <a href="https://www.kaartech.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: 'inherit', display: 'block'}}>
               <div className="price-box__wrap">
                 <div className="price-box__img"></div>
@@ -41,7 +41,7 @@ const Experience = () => {
           </div>
 
           {/* SAP Internship */}
-          <div data-aos="fade-up" className="col-md-6 col-sm-12 price-box price-box--violet">
+          <div data-aos="fade-left" className="col-md-6 col-sm-12 price-box price-box--violet">
             <a href="https://www.kaartech.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: 'inherit', display: 'block'}}>
               <div className="price-box__wrap">
                 <div className="price-box__img"></div>
@@ -63,7 +63,7 @@ const Experience = () => {
           </div>
 
           {/* Java Internship */}
-          <div data-aos="fade-up" className="col-md-4 col-sm-4 price-box price-box--blue">
+          <div data-aos="fade-right" className="col-md-4 col-sm-4 price-box price-box--blue">
             <a href="https://retechsolutions.in/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: 'inherit', display: 'block'}}>
               <div className="price-box__wrap">
                 <div className="price-box__img"></div>
