@@ -2,7 +2,7 @@
   "name": "prtflo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://username.github.io/repository-name",
+  "homepage": "https://dheerajreddy92.github.io/prtflo",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -43,6 +43,7 @@
   "devDependencies": {
     "ajv": "^8.16.0",
     "ajv-keywords": "^5.1.0",
+    "gh-pages": "^6.3.0",
     "schema-utils": "^4.2.0"
   }
 }
