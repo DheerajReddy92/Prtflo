@@ -20,6 +20,8 @@ function App() {
       <Experience />
       <Certifications />
       <Projects />
+      <br></br>
+  
       <Contact />
       <Footer />
     </div>

@@ -285,7 +285,7 @@ body, html {
 }
 
 .header__img {
-    max-height: 90px;
+    max-height: 69px;
     object-fit: contain;
 }
 
@@ -589,6 +589,19 @@ body.menu-open {
 
 
 
+.html, .css, .js, .ts, .react, .git, .angular, .python, .algorithms, .pandas, .numpy, .machinelearning, .deeplearning, .nodejs, .ex, .nestjs, .reactapi, .sql, .nextjs, .reactquery, .redux, .mongodb, .postgresql,.redis, .elasticsearch, .aws, .kubernetes, .cicd, .jest, .cypress, .mocha, .jira, .confluence, .postman {
+  filter: opacity(.4) sepia(190%) hue-rotate(180deg) !important;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.html:hover, .js:hover, .ts:hover, .react:hover, .postgresql:hover, .redis:hover, .css:hover, .git:hover, .angular:hover, .python:hover, .algorithms:hover, .pandas:hover, .numpy:hover, .machinelearning:hover, .deeplearning:hover, .nodejs:hover, .ex:hover, .nestjs:hover, .reactapi:hover, .sql:hover, .nextjs:hover, .reactquery:hover, .redux:hover, .mongodb:hover, .postgressql:hover, .elasticsearch:hover, .aws:hover, .kubernetes:hover, .cicd:hover, .jest:hover, .cypress:hover, .mocha:hover, .jira:hover, .confluence:hover, .postman:hover {
+  transform: scale(1.2);
+  filter: none !important;
+}
+
+
+
 .sect--padding-top {
   padding-top: 90px;
 }
@@ -613,6 +626,8 @@ body.menu-open {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   padding: 40px;
+  margin-left: clamp(2px, 10%, 345px);
+  margin-right: clamp(2px, 10%, 345px);
 }
 
 .partner {
@@ -632,7 +647,7 @@ body.menu-open {
 }
 
 .header__img {
-  max-height: 80px;
+  max-height: 69px;
   width: auto;
   object-fit: contain;
   transition: transform 0.3s ease;
@@ -891,7 +906,7 @@ body.menu-open {
   height: 680px;
   margin-top: 53px;
   text-align: center;
-  width: 380px;
+  max-width: 380px;
   padding: 20px 20px 30px;
   max-height: 270px;
   overflow: hidden;
@@ -952,6 +967,7 @@ body.menu-open {
   margin: 1%;
   position: relative;
   transition: all 0.5s ease;
+  margin-bottom: 7%;
 }
 
 .cert-link {
@@ -1133,14 +1149,15 @@ body.menu-open {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  zoom:75%
+  zoom:75%;
+  padding-bottom:10vh;
 }
 
 .column-0 {
  margin:20%;
 
 }
-.
+
 
 .border {
   position: absolute;
@@ -1333,8 +1350,9 @@ body, html {
   background-color: #6f79ff;
   position: relative;
   overflow: visible;
-  height:163px;
-  bottom:-20px;
+  height:37vw;
+  bottom:-27vw;
+
 }
 
 .career-img {

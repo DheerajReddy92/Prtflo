@@ -26,7 +26,7 @@ const Certifications = () => {
                 {/* Angular Certification */}
                 <div data-aos="fade-up" className="carousel-item active">
                   <a
-                    href="https://www.coursera.org/learn/frontend-development-using-angular"
+                    href="https://www.coursera.org/specializations/react"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cert-link"
@@ -35,13 +35,13 @@ const Certifications = () => {
                       <div className="item__header">
                         <img
                           className="item__img"
-                          src={process.env.PUBLIC_URL + '/Images/angicon.18b5ae063c550dd87836.png'}
-                          alt="Angular Icon"
+                          src={process.env.PUBLIC_URL + '/Images/react.svg'}
+                          alt="React"
                         />
                         <span className="item__name">Coursera</span>
                       </div>
                       <p className="item__description">
-                        Angular for Front End Engineers certificate.
+                        React for Front End Engineers certificate.
                       </p>
                     </div>
                   </a>
