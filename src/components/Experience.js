@@ -81,7 +81,7 @@ const Experience = () => {
                   <h2 className="price-box__discount">
                     <span className="price-box__discount--light">/Retech Solutions Pvt.</span>
                   </h2>
-                  <h3 className="price-box__price">Nov 2020</h3>
+                  <h3 className="price-box__price">Nov 2019</h3>
                   <p className="price-box__feat">Responsibilities</p>
                   <li className="price-box__list-el">Strengthened Java fundamentals by completing a series of coding challenges with a 95% success rate.</li>
                   <li className="price-box__list-el">Enhanced coding efficiency and reliability through hands-on experience with Java development tasks.</li>
