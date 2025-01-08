@@ -18,7 +18,7 @@ const Projects = () => {
           </h2>
         </div>
         <div className="projects-grid"> {/* Changed to grid container */}
-          <a href="https://www.coursera.org/specializations/react"
+          <a href="https://dheerajreddy92.github.io/Prtflo/"
                     target="_blank" data-aos="fade-up" data-aos-duration="1500" className="card card-color-0">
             <div style={{opacity:'0.2'}} className="border"></div>
             <img data-aos="zoom-out" data-aos-duration="1500" className='projectimg' src={process.env.PUBLIC_URL + '/Images/portfolio.png'} alt="project" />
