@@ -1108,7 +1108,7 @@ body.menu-open {
 .projname {
   position: absolute;
   bottom: 20px;
-  right: -2vh;
+  right: -0.2vh;
   margin: 2vh;
   bottom: -14vh; 
   padding: 30%;
