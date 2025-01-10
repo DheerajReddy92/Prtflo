@@ -20,7 +20,7 @@ const Header = () => {
       fontSize: '170%',
       padding: '30px 25px'
     }}>
-      <div className="container header__container">
+      <div className="container header__container" id = 'top1'>
         <div className="header__logo">
           <img 
             className="header__img" 
@@ -32,10 +32,10 @@ const Header = () => {
           <nav id="navbar" className="header__nav">
             <ul className="header__elenco">
               <li className="header__el" data-aos="fade-left" data-aos-delay="200">
-                <a href="#top" className="header__link">Top</a>
+                <a href="https://github.com/DheerajReddy92/Prtflo" className="header__link">Source</a>
               </li>
               <li className="header__el" data-aos="fade-left" data-aos-delay="400">
-                <a href="#skills" className="header__link">Skills</a>
+                <a href="#skills" target="_blank"  className="header__link">Skills</a>
               </li>
               <li className="header__el" data-aos="fade-left" data-aos-delay="600">
                 <a href="#certifications" className="header__link">Certifications</a>

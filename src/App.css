@@ -1223,7 +1223,7 @@ body.menu-open {
 
 
 
-.sect--violet {
+.sect--violetcontact {
   -webkit-font-smoothing: antialiased;
   color: #1f4568;
   font-family: Pixelletters;
@@ -1232,12 +1232,13 @@ body.menu-open {
   padding: 0;
   background-color: #6f79ff;
   position: relative;
-  overflow: hidden;  /* Changed from visible to hidden */
-  height: 163px;
-  margin-bottom: -1px; /* Added to prevent gap */
+  overflow: visible;  /* Changed from visible to hidden */
+  height: 15vw;
+  min-height: 8vh;
+  margin-bottom: -20px; /* Added to prevent gap */
 }
 
-.contact-image {
+.contact-image1 {
   max-width: 70vw;
   margin-left: 15vw;
   position: relative;

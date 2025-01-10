@@ -13,7 +13,7 @@ import Footer from './components/Footer.js';
 
 function App() {
   return (
-    <div className="app">
+    <div id = 'app' className="app">
       <Header />
       <About />
       <Skills />
@@ -21,7 +21,9 @@ function App() {
       <Certifications />
       <Projects />
       <br></br>
-  
+      <br></br>
+      <br></br>
+      
       <Contact />
       <Footer />
     </div>
