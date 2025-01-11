@@ -4,7 +4,7 @@ import '../App.css';
 const Projects = () => {
     return (
     <div className="sect sect--white projects" id = 'Projects'>
-      <div className="container">
+      <div className="container1">
         <div className="col-md-12 text-center">
           <h1 className="header__title">
             <span data-aos="fade-left" className="header__light2">
