@@ -11,6 +11,14 @@ import Projects from './components/Projects.js';
 import Contact from './components/Contact.js';
 import Footer from './components/Footer.js';
 
+
+
+window.addEventListener('scroll', function() {
+  const scrolled = window.scrollY;
+  document.body.style.backgroundPositionY = -(scrolled * 1.2) + 'px';
+});
+
+
 function App() {
   return (
     <div id = 'app' className="app">

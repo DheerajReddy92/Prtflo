@@ -40,14 +40,17 @@ body, html {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image: url(https://image.ibb.co/de6JzG/bitmap_1_1.png);
   background-position: center 0;
   background-repeat: repeat;
   background-size: cover;
   filter: contrast(1.2);
   overflow-x: hidden;
+  perspective: 1px;
+  transform-style: preserve-3d;
 }
+
 
 /* Header Styles */
 .header {
@@ -546,7 +549,50 @@ body.menu-open {
   min-width: 200px;
   object-fit: contain;
   width: 100%;
+  position: relative;
+  filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.3));
+  animation: sparkle 2s infinite;
 }
+
+@keyframes sparkle {
+  0%, 100% { 
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.3));
+  }
+  50% { 
+    filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.7));
+  }
+}
+
+.site__img::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.1) 45%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0.1) 55%,
+    transparent 100%
+  );
+  transform: rotate(-45deg);
+  animation: shine 2s infinite;
+}
+
+@keyframes shine {
+  0% {
+    top: -50%;
+    left: -50%;
+  }
+  100% {
+    top: 100%;
+    left: 100%;
+  }
+}
+
 
 .btn {
   background-color: #3a9fff;
