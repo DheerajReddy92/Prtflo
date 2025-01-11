@@ -23,6 +23,11 @@ function App() {
   return (
     <div id = 'app' className="app">
       <Header />
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <About />
       <Skills />
       <Experience />

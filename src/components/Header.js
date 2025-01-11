@@ -15,12 +15,17 @@ const Header = () => {
   return (
     <header style={{
       WebkitFontSmoothing: 'antialiased',
-      color: '#1f4568',
+
       fontFamily: 'Pixelletters',
       fontSize: '170%',
-      padding: '30px 25px'
+      padding: '30px 25px',
+      position: 'sticky',
+      top: 0,
+
+      zIndex: 1000,
+
     }}>
-      <div className="container header__container" id = 'top1'>
+      <div className="container header__container" id='top1'>
         <div className="header__logo">
           <img 
             className="header__img" 
@@ -35,7 +40,7 @@ const Header = () => {
                 <a href="https://github.com/DheerajReddy92/Prtflo" className="header__link">Source</a>
               </li>
               <li className="header__el" data-aos="fade-left" data-aos-delay="400">
-                <a href="#skills" target="_blank"  className="header__link">Skills</a>
+                <a href="#skills" className="header__link">Skills</a>
               </li>
               <li className="header__el" data-aos="fade-left" data-aos-delay="600">
                 <a href="#certifications" className="header__link">Certifications</a>

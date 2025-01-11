@@ -19,6 +19,32 @@ const Experience = () => {
       </div>
 
         <div className="row row--center row--margin">
+
+
+          {/* Full-Stack developer and social media Support */}
+          <div data-aos="fade-right" className="col-md-6 col-sm-12 price-box price-box--blue">
+            <a href="https://www.kaartech.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: 'inherit', display: 'block'}}>
+              <div className="price-box__wrap">
+                <div className="price-box__img"></div>
+                <h1 className="price-box__title">Social media Support and </h1>
+                <p className="price-box__people">Full-Stack developer</p>
+                <ul className="price-box__list">
+                  <h2 className="price-box__discount">
+                    <span className="price-box__discount--light">/University at Buffalo</span>
+                  </h2>
+                  <h3 className="price-box__price"> Sept 2023 - Present</h3>
+                  <p className="price-box__feat">Responsibilities-</p>
+                  <li className="price-box__list-el"> Maintained and enhanced professor’s website with React/.NET, improving UX and performance.</li>
+                  <li className="price-box__list-el">Designed and managed social media accounts, creating content and increasing engagement by 30%.</li>
+                  <li className="price-box__list-el">Optimized frontend components for better accessibility and responsiveness across various devices.</li>
+                  <li className="price-box__list-el">Provided technical support and training, ensuring smooth operation of the website and social media platforms.</li>
+                </ul>
+              </div>
+            </a>
+          </div>
+
+
+
           {/* Full Stack Angular Position */}
             <div data-aos="fade-right" className="col-md-6 col-sm-12 price-box price-box--purple">
             <a href="https://www.kaartech.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: 'inherit', display: 'block'}}>
@@ -70,6 +96,9 @@ const Experience = () => {
             </a>
           </div>
 
+          </div>
+          <div className="row row--center row--margin">
+
           {/* Java Internship */}
           <div data-aos="fade-right" className="col-md-4 col-sm-4 price-box price-box--blue">
             <a href="https://retechsolutions.in/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: 'inherit', display: 'block'}}>
@@ -91,7 +120,9 @@ const Experience = () => {
               </div>
             </a>
           </div>
-        </div>
+          </div>
+
+        
       </div>
     </div>
   );

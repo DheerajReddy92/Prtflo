@@ -34,7 +34,8 @@ body, html {
   padding: 0;
   
   scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
+  scroll-padding-top: 100px;
+
 }
 
 body {
@@ -279,6 +280,11 @@ body, html {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
+    z-index: 1000;
+}
+
+section[id] {
+  scroll-margin-top: 100px;
 }
 
 /* Logo Styles */
@@ -537,6 +543,8 @@ body.menu-open {
   justify-content: center;
   padding: 20px;
   width: 100%;
+  position: relative;
+   display: inline-block
 }
 
 .site__img {
@@ -1115,6 +1123,79 @@ body.menu-open {
 
 
 
+
+.card {
+  position: relative;
+  width: 40vw;
+  max-width: 640px;
+  max-height: 478px;
+  height: 40vw;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 1.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+.card:hover {
+  transform: scale(1.5);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.projectimg {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(1, 1, 1, 0.5);
+  transition: transform 0.7s ease-in-out;
+  backface-visibility: hidden; /* Ensures smooth rotation */
+}
+
+.card:hover .projectimg {
+  transform: scale(1.5) rotate3d(1, 1, 1, 360deg);
+  transition: transform 1.0s
+}
+
+.projname {
+  position: absolute;
+  bottom: -14vh;
+  right: 0;
+  font-size: 4vw;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(94, 92, 92, 0.7);
+  font-weight: bold;
+  font-family: 'Freedom', sans-serif;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .projname {
+  transform: translateY(-5px);
+}
+
+.border {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 6px;
+  border: 1px solid #fff;
+  opacity: 0.5;
+  left: -6px;
+  top: -6px;
+}
+
+.card-color-0 {
+  background-color: #7abbec;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 90%;
+  }
+}
+
+
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -1139,16 +1220,6 @@ body.menu-open {
   }
 }
 
-
-
-.projectimg {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 20px;
-  box-shadow: 0 4px 15px rgba(1, 1, 1, 0.5);
-  transition: all 0.3s ease;
-}
 
 
 .projname {

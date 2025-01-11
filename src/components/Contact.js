@@ -3,7 +3,7 @@ import '../App.css';
 
 const Contact = () => {
   return (
-    <div className="sect sect--violetcontact">
+    <div className="sect sect--violetcontact" id = 'contact'>
       <img 
         data-aos="fade-up" 
         src="https://image.ibb.co/fWyVtb/path3762.png" 
