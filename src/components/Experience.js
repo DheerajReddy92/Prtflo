@@ -26,7 +26,7 @@ const Experience = () => {
             <a href="https://www.kaartech.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: 'inherit', display: 'block'}}>
               <div className="price-box__wrap">
                 <div className="price-box__img"></div>
-                <h1 className="price-box__title">Social media Support and </h1>
+                <h1 className="price-box__title">Experience -- 3</h1>
                 <p className="price-box__people">Full-Stack developer</p>
                 <ul className="price-box__list">
                   <h2 className="price-box__discount">
@@ -50,8 +50,8 @@ const Experience = () => {
             <a href="https://www.kaartech.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: 'inherit', display: 'block'}}>
               <div className="price-box__wrap">
                 <div className="price-box__img"></div>
-                <h1 className="price-box__title">Full-Stack </h1>
-                <p className="price-box__people">SeniorReact Developer</p>
+                <h1 className="price-box__title">Experience -- 2</h1>
+                <p className="price-box__people">Full-Stack Developer</p>
                 <ul className="price-box__list">
                   <h2 className="price-box__discount">
                     <span className="price-box__discount--light">/Kaar Technologies</span>
@@ -77,7 +77,7 @@ const Experience = () => {
               <div className="price-box__wrap">
                 <div className="price-box__img"></div>
                 <h1 className="price-box__title">Full-Stack and SAP</h1>
-                <p className="price-box__people">React Developer</p>
+                <p className="price-box__people">Jr. Full-Stack Developer</p>
                 <ul className="price-box__list">
                   <h2 className="price-box__discount">
                     <span className="price-box__discount--light">/Kaar Technologies</span>
