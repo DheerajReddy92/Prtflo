@@ -34,10 +34,10 @@ const Experience = () => {
                   </h2>
                   <h3 className="price-box__price"> Sept 2023 - Present</h3>
                   <p className="price-box__feat">Responsibilities-</p>
-                  <li className="price-box__list-el"> Maintained and enhanced professor’s website with React/.NET, improving UX and performance.</li>
-                  <li className="price-box__list-el">Designed and managed social media accounts, creating content and increasing engagement by 30%.</li>
+                  <li className="price-box__list-el">Maintained and enhanced professor’s website with React/Node.js, improving UX and performance.</li>
+                  <li className="price-box__list-el"> Optimized frontend components for better accessibility and responsiveness across various devices.</li>
                   <li className="price-box__list-el">Optimized frontend components for better accessibility and responsiveness across various devices.</li>
-                  <li className="price-box__list-el">Provided technical support and training, ensuring smooth operation of the website and social media platforms.</li>
+                  <li className="price-box__list-el">Built Driver App, Media Player, Portfolio under C.Wang, applying academic focus to real solutions.</li>
                 </ul>
               </div>
             </a>
@@ -60,12 +60,10 @@ const Experience = () => {
                   <p className="price-box__feat">Responsibilities-</p>
                   <li className="price-box__list-el">Spearheaded development of enterprise-level React applications using Next.js and Redux, resulting in 45% improved
                   performance and 60% faster page load times.</li>
-                  <li className="price-box__list-el">Architected microservices infrastructure using Node.js/Express.js, implementing GraphQL APIs and Redis caching,
-                  handling 10M+ daily requests with 99.99% uptime.</li>
+                  <li className="price-box__list-el"> Established CI/CD pipelines with GitHub Actions and Docker, deploying to AWS EC2, reducing deployment time by 70%.</li>
                   <li className="price-box__list-el">Implemented CI/CD pipelines with GitHub Actions and Docker, reducing deployment time by 70% and achieving
                   zero-downtime deployments.</li>
-                  <li className="price-box__list-el"> Led migration from REST to GraphQL, resulting in 40% reduction in API calls and improved data fetching efficiency
-                  across 20+ microservices.</li>
+                  <li className="price-box__list-el"> Implemented AWS EC2 Auto Scaling to adjust instance capacity based on traffic, ensuring consistent performance.</li>
                 </ul>
               </div>
             </a>
@@ -84,8 +82,7 @@ const Experience = () => {
                   </h2>
                   <h3 className="price-box__price">Jan 2020 - July 2022</h3>
                   <p className="price-box__feat">Responsibilities</p>
-                  <li className="price-box__list-el">Engineered responsive React components using Material-UI and Styled-Components, improving UI performance by
-                  35% and achieving 98% accessibility score.</li>
+                  <li className="price-box__list-el"> Developed and maintained enterprise SAP web apps with React and Node.js; enhanced performance by 40%.</li>
                   <li className="price-box__list-el">Developed real-time data synchronization system using WebSocket and Redux-Saga, processing 1000+ concurrent
                   user sessions.</li>
                   <li className="price-box__list-el">Optimized MongoDB queries and implemented Redis caching strategies, reducing API response times by 65%.</li>
@@ -95,7 +92,8 @@ const Experience = () => {
               </div>
             </a>
           </div>
-
+ 
+ 
           </div>
           <div className="row row--center row--margin">
 
