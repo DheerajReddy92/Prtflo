@@ -11,7 +11,8 @@ const About = () => {
       once: false,
       mirror: true
     });
-  }, []);
+  }, []); 
+  
 
   return (
     <div className="sect sect--padding-top" style={{
