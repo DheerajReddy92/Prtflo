@@ -33,7 +33,8 @@ const About = () => {
                 <span className="header__light1">DHEERAJ REDDY</span>
               </h1>
               
-              <h2 data-aos="zoom-in" className="site__subtitle">
+              <h2 data-aos="zoom-in" className="site__subtitle">  
+                
                 Full-Stack Application Developer..
               </h2>
               
