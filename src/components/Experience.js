@@ -58,8 +58,7 @@ const Experience = () => {
                   </h2>
                   <h3 className="price-box__price">Jul 2022 to June 2023</h3>
                   <p className="price-box__feat">Responsibilities-</p>
-                  <li className="price-box__list-el">Spearheaded development of enterprise-level React applications using Next.js and Redux, resulting in 45% improved
-                  performance and 60% faster page load times.</li>
+                  <li className="price-box__list-el">Led the development of high-performance web applications, improving overall efficiency by 45% and significantly reducing page load times by 60%.</li>
                   <li className="price-box__list-el"> Established CI/CD pipelines with GitHub Actions and Docker, deploying to AWS EC2, reducing deployment time by 70%.</li>
                   <li className="price-box__list-el">Implemented CI/CD pipelines with GitHub Actions and Docker, reducing deployment time by 70% and achieving
                   zero-downtime deployments.</li>
@@ -82,12 +81,10 @@ const Experience = () => {
                   </h2>
                   <h3 className="price-box__price">Jan 2020 - July 2022</h3>
                   <p className="price-box__feat">Responsibilities</p>
-                  <li className="price-box__list-el"> Developed and maintained enterprise SAP web apps with React and Node.js; enhanced performance by 40%.</li>
-                  <li className="price-box__list-el">Developed real-time data synchronization system using WebSocket and Redux-Saga, processing 1000+ concurrent
-                  user sessions.</li>
-                  <li className="price-box__list-el">Optimized MongoDB queries and implemented Redis caching strategies, reducing API response times by 65%.</li>
-                  <li className="price-box__list-el"> Created reusable React hooks and custom components library, accelerating development velocity by 40% across team
-                  projects.</li>
+                  <li className="price-box__list-el">Developed and maintained large-scale enterprise web applications, resulting in a 40% improvement in overall system performance.</li>
+                  <li className="price-box__list-el">Built a real-time data synchronization system capable of handling over 1,000 concurrent user sessions, enhancing live data delivery.</li>
+                  <li className="price-box__list-el">Improved backend performance by optimizing database queries and implementing advanced caching techniques, reducing response times by 65%.</li>
+                  <li className="price-box__list-el">Designed a reusable library of components and utilities, boosting development speed by 40% across multiple team projects.</li>
                 </ul>
               </div>
             </a>
